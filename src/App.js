@@ -8,9 +8,11 @@ function App() {
       <header className="App-header">
         <img src={'https://bdhjwyivindi2bhlnotszwj5i3vmgfs2iacouud54s5l5bdn54.arweave.net/CM-6bYRVDRo0E62unLNk9RurDFlpABOpQfeS6voRt78?ext=png'} alt="logo" />
         <p>
-          <Typewriter 
+          <Typewriter options={{
+          delay: 80,
+          }}
             onInit={(typewriter) => {
-              typewriter.typeString("Hello! I will be your companion for this trip.").start();
+              typewriter.typeString("Hello! It's good to see you. We think the FOMO will be delicious.").start();
             }}
           />
         </p>
