@@ -35,7 +35,7 @@ function App() {
 
   <div style={{flex: 1, height: '10px', backgroundColor: 'cyan'}} />
 </div>
-<header className="About Us">Hello cruel world</header>
+<header className="About Us">One day at a time...</header>
 
     </div>
     
