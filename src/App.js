@@ -20,11 +20,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://magiceden.io/marketplace/doges_unleashed"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Journey to Newfrenland
+          Magic Eden Marketplace
         </a>
 
       </header>
