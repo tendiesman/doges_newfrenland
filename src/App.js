@@ -14,7 +14,7 @@ function App() {
           delay: 60,
           }}
             onInit={(typewriter) => {
-              typewriter.typeString("Hello and gm! We're here to be your Web3 best friend.").start();
+              typewriter.typeString("Hello and gm! I'm so happy to see you. Head to a marketplace to adopt one of my brothers or sisters.").start();
             }}
           />
         </p>
