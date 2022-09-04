@@ -7,14 +7,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo2} />
-        <img src={'https://bdhjwyivindi2bhlnotszwj5i3vmgfs2iacouud54s5l5bdn54.arweave.net/CM-6bYRVDRo0E62unLNk9RurDFlpABOpQfeS6voRt78?ext=png'} alt="logo" />
+      <img src={logo2} className="logoo" alt="name"/>
+        <img src={'https://bdhjwyivindi2bhlnotszwj5i3vmgfs2iacouud54s5l5bdn54.arweave.net/CM-6bYRVDRo0E62unLNk9RurDFlpABOpQfeS6voRt78?ext=png'} className="App-logo" alt="logo" />
         <p>
           <Typewriter options={{
           delay: 60,
           }}
             onInit={(typewriter) => {
-              typewriter.typeString("Hello! It's good to see you. We think the FOMO will be delicious.").start();
+              typewriter.typeString("Hello and gm! We're here to be your Web3 best friend.").start();
             }}
           />
         </p>
